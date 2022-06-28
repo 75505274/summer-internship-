@@ -1,0 +1,22 @@
+//http://tpcg.io/_9U5NEX
+
+#include <iostream>     // this is a header file and library
+
+using namespace std;
+
+int main()              // main function 
+
+{ 
+
+int x,result;           // declare the x and result
+
+cout<<"Enter the value of side:";                      // enter the value of a single side (Height or breath )
+
+cin>>x;                // this is use for enter the value by user
+
+result =x*x;           //this is a formula of square 
+
+cout<<"The area of square:"<<result;                 //this is used for end the function 
+
+}
+
