@@ -1,0 +1,29 @@
+//Program of perimeter of Rectangle
+
+//http://tpcg.io/_KD66XD
+
+#include <iostream>
+
+//this is header file or library 
+
+using namespace std;
+
+int main() {
+
+    float l,b,result; //this is used for declared the hight,base and result
+
+    cout<<"Enter the length of Rectangle :";
+
+    cin>>l; //this is used for enter the value of hight by user
+
+    cout<<"Enter the Base of Rectangle   :"; 
+
+    cin>>b; // this is used for enter the value of base by user
+
+    result=(l+b)*2; // this is a formula of area of traingle
+
+    cout<<"The Perimeter of Rectanglee is :"<<result;  // this is used for print the results on display 
+
+    return 0; // this is used for end the function 
+
+}
